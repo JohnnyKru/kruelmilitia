@@ -1,0 +1,270 @@
+
+html body  {
+margin: 0;
+top:0;
+background:white;
+
+}
+
+img{
+border-radius: 10px 10px ;
+width: 300px;
+height: 150px;
+box-shadow: 10px 30px 20px black;
+
+}
+
+h5 {
+	color: blue;
+font-family: Arial;
+width: 290px;
+font-size: 16px;
+text-shadow: 5px 5px 9px black;
+
+}
+
+h3 {
+	color: black;
+font-family: sans-serif;
+font-size: 19px;
+text-shadow: 5px 5px 19px black;
+
+}
+
+span {
+color: blue;
+
+}
+
+h1 {
+	position: absolute;
+left: 300px;
+top: 20px;
+hover:: background:yellow;
+}
+.Skills {
+	position: relative;
+color: rgba(1,32,74,1);
+font-size: 16px;
+top: 40px;
+text-shadow: 15px 15px 19px black;
+
+}
+
+.jKru {
+width: 100%;
+position: absolute;
+width: 150px;
+height: 180px;
+top:20px;
+left: 50px;
+box-shadow: 10px 30px 20px black;
+}
+
+
+
+#Head_Container {
+	position: relative;
+	border-radius: 5px 5px 5px 5px ;
+	width: 1100px;
+	height: 300px;
+	top:0px;
+	background: white;
+	margin: 0px auto;
+	
+}
+
+
+#top_header {
+	position: relative;
+background:white;
+width: 1100px;
+height: 200px;
+border-radius: 5px 5px 5px 5px;
+margin: 0px auto;
+
+}
+
+
+/* NAVIGATION */
+
+#NAVBAR {
+
+     }
+
+ul li {
+
+	display: inline;
+	width: 100%;
+
+}
+
+ul li:hover { 
+    background-color: yellow;
+	display: inline;
+}
+
+
+a {
+  font-color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
+#Main_container {
+	position: relative;
+height: 800px;
+width: 100%;
+top: 10px;
+background:transparent;
+border-radius: 5px 5px 5px 5px;
+
+
+
+}
+
+#Center_Wrap{
+position: relative;
+height: 800px;
+width: 1100px;
+background:white;
+margin: 0px auto;
+
+
+}
+
+/* First Display Website Demo*/
+
+
+#wrap1{
+position: absolute;
+top: 0px;
+left:50px;
+box-shadow: 5px 5px 19px black;
+}
+#text_Demo1{
+	top: 10px;
+font-family: Arial;
+width: 290px;
+font-size: 16px;
+text-shadow: 5px 5px 19px rgba(150, 150, 150, 1);
+
+}
+
+
+#wrap2{
+position: absolute;
+top: 0px;
+left:400px;
+}
+}
+#text_Demo2 {
+	color: red;
+font-family: Arial;
+width: 300px;
+font-size: 16px;
+text-shadow: 5px 5px 9px rgba(150, 150, 150, 1);
+}
+
+
+#wrap3 {
+position: absolute;
+top:0px;
+left:750px;
+}
+#text_Demo3 {
+font-family: Arial;
+width: 260px;
+font-size: 16px;
+text-shadow: 5px 5px 9px rgba(150, 150, 150, 1);
+}
+
+
+#wrap4 {
+	border: 1px solid black;
+position: absolute;
+top:250px;
+left:50px;
+}
+#text_Demo4 {
+width: 260px;
+font-family: Arial;
+font-size: 16px;
+text-shadow: 5px 5px 9px rgba(150, 150, 150, 1);
+}
+
+#wrap5 {
+border: 1px solid black;
+position: absolute;
+top:250px;
+left:400px;
+}
+#text_Demo5 {
+width: 260px;
+font-family: Arial;
+font-size: 16px;
+text-shadow: 5px 5px 19px rgba(150, 150, 150, 1);
+}
+
+#contact_text {
+	position: absolute;
+font-family: Arial, CenturyGothic, AppleGothic, sans-serif;
+color: black;
+font-size: 16px;
+text-shadow: 5px 5px 9px rgba(150, 150, 150, 1);
+top:60px;
+left: 350px;
+text-align: center;
+}
+
+#Footer_Border {
+position: relative;
+background:white;
+text-align: center;
+width: 1100px;
+height: 550px;
+margin: 0px auto;
+top:-20px;
+}
+
+
+
+
+
+<!-- WebKit  --> 
+
+.flip3D{ width:300px; height:150px; margin:10px; float:left; box-shadow: 10px 30px 20px black;}
+.flip3D > .front{
+	position:absolute;
+	-webkit-transform: perspective( 600px ) rotateY( 0deg );
+	transform: perspective( 600px ) rotateY( 0deg );
+	background:#FC0; width:300px; height:150px; border-radius: 7px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transition: -webkit-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+top:95px;
+
+}
+.flip3D > .back{
+	position:absolute;
+	-webkit-transform: perspective( 600px ) rotateY( 180deg );
+	transform: perspective( 600px ) rotateY( 180deg );
+	background: #80BFFF; width:300px; height:150px; border-radius: 7px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transition: -webkit-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+	top:95px; 
+	box-shadow: 10px 30px 20px black;
+}
+.flip3D:hover > .front{
+	-webkit-transform: perspective( 600px ) rotateY( -180deg );
+	transform: perspective( 600px ) rotateY( -180deg );
+}
+.flip3D:hover > .back{
+	-webkit-transform: perspective( 600px ) rotateY( 0deg );
+	transform: perspective( 600px ) rotateY( 0deg );
+}
+
