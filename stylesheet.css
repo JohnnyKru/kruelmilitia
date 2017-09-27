@@ -1,0 +1,234 @@
+
+body {
+margin: 0;
+top:0;
+background-image: url(""); 
+background-position: center; 
+background-size: auto; 
+background-repeat: repeat; 
+background-attachment: fixed; 
+background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+h1, h2, h3, h4 , h5{
+	color:black;
+}
+
+p{
+	color:black;
+	font-size:19px;
+}
+ul {
+	color: black;
+}
+.navbar{
+	position:fixed;
+	width: 100%;
+	z-index:10;
+	
+}
+.wrapper{
+	margin:0px;
+	border:solid 1px red;
+}
+.top_Header{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:210px;
+	background:black;
+	border:solid 1px white;
+	z-index:6;
+}
+.logo{
+	position:relative;
+	top:0px;
+	left:0px;
+	z-index:6;
+}
+
+
+
+.img-fluid{
+	position:relative;
+	max-width: 100%;
+	height: auto;
+}
+
+.welcomTx{
+	
+	
+}
+.advr{
+	position:relative; 
+	top:50px; 
+	left:40%;
+	
+}
+.pix_ad1{
+	position:relative; 
+	top:100px; 
+	left:10%;
+	
+}
+
+.pix_ad2{
+	position:relative; 
+	top:150px; 
+	left:10%;
+	
+}
+
+.ad_dis1{
+	position:relative; 
+	top:10px; 
+	left:10%;
+	width: 600px;
+	height:800px;
+	}
+	
+
+.store_banner{
+	position:relative; 
+	top:150px; 
+	left:center;
+}
+
+
+.wrap_tx1{
+	position:relative; 
+    top:50px; 
+    left:40%;
+	
+}
+
+.fade_frame{
+	position:relative;
+	top:10px;
+	left:10px;
+	width:800px;
+	
+}
+
+
+.signupMess{
+	position:relative; 
+	top:10px; 
+	left:10px;
+	width:500px;
+	height:auto;
+}
+
+
+aside{
+	position:absolute;
+	top:220px;
+	left:0px;
+	height:1000px;
+	overflow:scroll;
+	width:35%;
+	padding:25px;
+	background:transparent;
+	
+}
+
+
+
+.itune_wrap{
+	position:relative;
+	top:120px;
+    text-align: center;
+	width:100%;
+	height:450px;
+	padding:20px;
+	border:solid 10px black;
+	background-image:url("http://www.kruelmilitiamma.com/hoop/w2.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.ad_wordWrap{
+	position:relative;
+	top:0px;
+	float:right;
+	width:500px;
+	height:500px;
+	color:#f46455 blue;
+	
+}
+
+.contact_form{
+	position:absolute;
+	top:0px;
+	left:5%;
+	width:500px;
+	height:auto;
+	
+
+}
+.comment_frameDark{
+position:relative;
+	top:40px;
+	left:0px;
+	width:400px;
+	height:400px;
+}
+.wrap_tx2{
+	position:absolute; 
+	top:500px; 
+	left:0px;
+	
+}
+
+
+
+
+
+
+
+footer{
+	position: relative;
+	top: 700px;
+	left:0px;
+	
+}
+
+<!-- WebKit  --> 
+
+.flip3D{ width:300px; height:150px; margin:10px; float:left; box-shadow: 10px 30px 20px black;}
+.flip3D > .front{
+	position:absolute;
+	-webkit-transform: perspective( 600px ) rotateY( 0deg );
+	transform: perspective( 600px ) rotateY( 0deg );
+	background:#FC0; width:300px; height:150px; border-radius: 7px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transition: -webkit-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+top:95px;
+
+}
+.flip3D > .back{
+	position:absolute;
+	-webkit-transform: perspective( 600px ) rotateY( 180deg );
+	transform: perspective( 600px ) rotateY( 180deg );
+	background: #80BFFF; width:300px; height:150px; border-radius: 7px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transition: -webkit-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+	top:95px; 
+	box-shadow: 10px 30px 20px black;
+}
+.flip3D:hover > .front{
+	-webkit-transform: perspective( 600px ) rotateY( -180deg );
+	transform: perspective( 600px ) rotateY( -180deg );
+}
+.flip3D:hover > .back{
+	-webkit-transform: perspective( 600px ) rotateY( 0deg );
+	transform: perspective( 600px ) rotateY( 0deg );
+}
+
