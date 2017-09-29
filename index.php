@@ -23,10 +23,10 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 		 <script>window._epn = {campaign:5338059521};</script>
 		<script src="https://epnt.ebay.com/static/epn-smart-tools.js"></script>
-		 </head>
-
-  
-  <body>
+		 </head>	
+	
+	<body>
+		<h1><KRUEL MILITIA</h1>
    <div class="wrapper">
 	<div class="top_Header">
 	<img src="https://www.kruelmilitiamma.com/hoop/KRUELMILITIALOGO.jpg" style="position:relative; width:500px; height:200px; top:0px; left:50px; float:left; z-index:2 "class="img-fluid" alt="Responsive image" />
@@ -81,7 +81,7 @@
 				<li>Killer Take Downs</li>
 				<li>Sweeps</li>
 				<li>Leg Catches</li>
-				<li>The Truth about Muay Thai  (Uncovering the Myths )</li>
+				<li>The Truth about Muay Thai Â (Uncovering the Myths )</li>
 				<li>Learn Other South East Asian Styles</li>
 				<li>&amp; Much Much More !!</li>
 			</ul>
