@@ -33,8 +33,8 @@
         <header> <h2 id="title_logo"> This is Kruel Militia </h2> 
 			<nav>
 				<ul>
-				<li><a href="http://localhost/kruelmilitia/">HOME</a></li>
-				<li><a href="http://localhost/kruelmilitia/PersonalTraining.php">PERSONAL TRAINING</a></li>
+				<li><a href="https://whispering-inlet-81728.herokuapp.com/">HOME</a></li>
+				<li><a href="https://whispering-inlet-81728.herokuapp.com/PersonalTraining.php">PERSONAL TRAINING</a></li>
 				<li>CONTACT</li>
 				</ul>
 			</nav>
@@ -136,7 +136,7 @@
 	        </div>					
  </div> /* End of Wrapper*/
 	
-	<script src="http://localhost/kruelmilitia/javascript.js"></script> 
+	<script src="https://whispering-inlet-81728.herokuapp.com/javascript.js"></script> 
 				
 	
   </body>
