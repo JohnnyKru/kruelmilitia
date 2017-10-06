@@ -19,6 +19,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		 
 		 <!-- Main Css Style -->
+<<<<<<< HEAD
 		<link rel="stylesheet"   href="stylesheet1.css">
 		 </head>
 
@@ -29,6 +30,16 @@
    </script>
    
    
+=======
+		<link rel="stylesheet"   href="stylesheet.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		 <script>window._epn = {campaign:5338059521};</script>
+		<script src="https://epnt.ebay.com/static/epn-smart-tools.js"></script>
+		 </head>	
+	
+	<body>
+		<h1><KRUEL MILITIA</h1>
+>>>>>>> refs/remotes/origin/master
    <div class="wrapper">
         <header> <h2 id="title_logo"> This is Kruel Militia </h2> 
 			<nav>
@@ -77,6 +88,7 @@
 						<p>With these challenges, you will need a team behind you. Take charge -</p>
 						<p>Join the Militia Today!!</p>
 						<br>
+<<<<<<< HEAD
 							
 						 <div class="container-fluid">
 							<div class="row">  
@@ -84,6 +96,74 @@
 								 <h2 id ="mailing_title">Get on the Mail List</h2>
 									 <form  name="contactform" method="post" action="mailer.php" class="form-horizontal" role="form">
 										 <div class="form-group">
+=======
+						<div class="welcomTx">
+							<img src="https://www.kruelmilitiamma.com/hoop/cropped-KRUMT1.jpg" class="img-fluid" alt="Responsive image" width="304" height="236" />
+								<h1> About Kruel Militia </h1>
+								<p>Kruel Militia was founded by Coach Johnny Keokongsy. A Mixed Martial Arts Coach, and a Buddhist practitioner who wanted to bring out the best in people and bring them together through combat training.</p>
+								<p>Kruel Militia is geared towards active individuals mastering self-development through combat sports, health/fitness and social activities.</p>
+								<p>With personal development comes clarity.
+								Even with an improved sense of direction, there will always be multiple tasks looking and waiting to challenge us all.
+								With these challenges, you will need a team behind you. Take charge -</p>
+								<p>Join the Militia Today!!</p>
+						</div>	 
+					</div>	
+				</div>
+			</div>
+		</div>  
+			
+	
+	
+	<aside>	
+    		
+		<div class ="signupMess">
+		<h1> Online courses right at your fingertips.</h1>
+			<h3><span style="color:#f46455;"><strong> BECOME AN ONLINE MEMBER</strong></span></h3>
+			<h3>Subscribers
+			will have access to never seen before, 
+			authentic Muay Thai Techniques.</h3>
+			 &nbsp;
+		 &nbsp;	 
+			<p> *(Including)</p>
+			<ul>
+				<li>Clinch Work</li>
+				<li>Killer Take Downs</li>
+				<li>Sweeps</li>
+				<li>Leg Catches</li>
+				<li>The Truth about Muay Thai  (Uncovering the Myths )</li>
+				<li>Learn Other South East Asian Styles</li>
+				<li>&amp; Much Much More !!</li>
+			</ul>
+			&nbsp;
+				
+		</div>
+	
+        <div class="pix_ad1">		
+		<img src="http://www.kruelmilitiamma.com/hoop/MTPOSE.jpg" class="img-fluid" alt="Responsive image"/>	
+		</div>	
+         
+		
+
+
+
+
+		
+    </aside>	
+	<div class="itune_wrap">		
+			<div class="ad_wordWrap">	
+				<h3>Get on mailing list today !! </h3> 
+				<h3> Or </h3> 
+				<a href="http://www.kruelmilitiamma.com/membership-account/membership-levels/"><h2> Register Here </h2> </a> <h3> to be an Online Member!! </h3>
+	            &nbsp;			
+            </div>
+					<div class="contact_form ">
+						<div class="row">  
+							<div class="contactForm col-lg-12 col-md-8 col-sm-6 col-xs-4">
+								<div class="comment_frameDark">   
+									 <h2>Mail List</h2>
+									<form  name="contactform" method="post" action="mailer.php" class="form-horizontal" role="form">
+										<div class="form-group">
+>>>>>>> refs/remotes/origin/master
 											<label for="inputName" class="col-lg-2 control-label">Name</label>
 												<div class="col-lg-10">
 													<input type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name">
