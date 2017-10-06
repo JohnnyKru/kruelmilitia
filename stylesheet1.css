@@ -6,7 +6,7 @@ background:grey;
 <!-- front 
 @font-face {
 	font-family: blade;
-	src: url ("http://localhost/krulmilitia/fonts/blade.ttf");
+	src: url ("http://localhost/kruelmilitia/fonts/blade.ttf");
 } 
 -->
 a{
@@ -64,12 +64,12 @@ li{
 
 .content_area{
 	
-	background-image: url('http://localhost/krulmilitia/images/wallup-301745.jpg');
+	background-image: url('http://localhost/kruelmilitia/images/wallup-301745.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;	
 }
 .content_area1{
-	background-image: url('http://localhost/krulmilitia/images/skyscrapers_5k-wide.jpg');
+	background-image: url('http://localhost/kruelmilitia/images/skyscrapers_5k-wide.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;	
 }
@@ -84,7 +84,7 @@ left:10%;
 }
 
 #login_area{
-	display:none;
+	
 	position:absolute;
     top:20%;
 	left:10%;

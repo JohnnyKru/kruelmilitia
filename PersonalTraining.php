@@ -33,8 +33,8 @@
         <header> <h2 id="title_logo"> This is Kruel Militia </h2> 
 			<nav>
 				<ul>
-				<li><a href="http://localhost/krulmilitia/">HOME</a></li>
-				<li><a href="http://localhost/krulmilitia/PersonalTraining.php">PERSONAL TRAINING</a></li>
+				<li><a href="http://localhost/kruelmilitia/">HOME</a></li>
+				<li><a href="http://localhost/kruelmilitia/PersonalTraining.php">PERSONAL TRAINING</a></li>
 				<li>CONTACT</li>
 				<li onclick="signUp()">Log In </li>
 				</ul>
@@ -46,7 +46,7 @@
 	    <div class= "content">
 		    <div id = "Video_area">
 			 
-				<video width="620" height="440" src="http://localhost/krulmilitia/vid/personaltraining_HD.mp4" controls type="video/mp4" >
+				<video width="620" height="440" src="http://localhost/kruelmilitia/vid/personaltraining_HD.mp4" controls type="video/mp4" >
 				
 				  <p>Your browser doesn't support HTML5 video. </p> 
 				</video>
@@ -82,7 +82,7 @@
 	        </div>					
  </div> /* End of Wrapper*/
 	
-	<script src="http://localhost/krulmilitia/javascript.js"></script> 
+	<script src="http://localhost/kruelmilitia/javascript.js"></script> 
 				
 	
   </body>
