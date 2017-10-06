@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en" >
 		<head>
 		<meta charset="utf-8">
@@ -36,103 +36,49 @@
 				<li><a href="http://localhost/krulmilitia/">HOME</a></li>
 				<li><a href="http://localhost/krulmilitia/PersonalTraining.php">PERSONAL TRAINING</a></li>
 				<li>CONTACT</li>
+				<li onclick="signUp()">Log In </li>
 				</ul>
 			</nav>
 		</header>	
-		<div class="content_area">	
-				<div class="content">
-				    
-						<div id="login_area">
-							<div id="login_wrapper">
-							 <h2>Log In </h2>
-								<form >
-									User Name : <input type="text" name=""></input><br><br>
-									Password : <input type="text" name=""></input><br><br>
-									<button type="submit"> Submit</button>
-								</form><br>
-							  <a id="sign_up" onclick="signUp()">Sign Up </a>  
-							</div>
-						</div>
-						<div id ="signUp_area">
-							<div id = "signUp_wrapper">
-							 <h2>Sign Up Form </h2>
-							   <form id="form" action ="signup_post.php" method="post" >
-										Name : <input type="text" name="name"></input><br>
-										Last : <input type="text" name="last" ></input><br>
-										email : <input type="text" name="email" ></input><br>
-										phone : <input type="text" name="phone" ></input><br><br>
-										User Name : <input type="text" name="username" ></input><br>
-										Make Password : <input type="text" name="makePassword" ></input><br>
-										Confirm PW : <input type="text" name="confirmPW" ></input><br><br>
-										<button type="submit"> Submit</button>
-								</form>
-								<a onclick = "login()">Log In</a> 
-							</div>							
-						</div>
-					
-					<div class="welcomTx">
-						<h1> About Kruel Militia </h1>
-						<p>Kruel Militia is geared towards active individuals mastering self-development through combat sports, health/fitness and social activities.With personal development comes clarity. </p>
-						<p>Even with an improved sense of direction, there will always be multiple tasks looking and waiting to challenge us all.<p>
-						<p>With these challenges, you will need a team behind you. Take charge -</p>
-						<p>Join the Militia Today!!</p>
-						<br>
-							
-						 <div class="container-fluid">
-							<div class="row">  
-								<div class="contactForm col-lg-12 col-md-8 col-sm-6 col-xs-4">
-								 <h2 id ="mailing_title">Get on the Mail List</h2>
-									 <form  name="contactform" method="post" action="mailer.php" class="form-horizontal" role="form">
-										 <div class="form-group">
-											<label for="inputName" class="col-lg-2 control-label">Name</label>
-												<div class="col-lg-10">
-													<input type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name">
-												</div>
-											</div>
-															
-										<div class="form-group">
-											<label for="inputEmail1" class="col-lg-2 control-label">Email</label>
-											<div class="col-lg-10">
-												<input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email">
-											</div>
-										</div>
-															
-										<div class="form-group">
-											<label for="inputSubject" class="col-lg-2 control-label">Subject</label>
-											<div class="col-lg-10">
-												<input type="text" class="form-control" id="inputSubject" name="inputSubject" placeholder="Subject Message">
-											</div>
-										</div>
-															
-										<div class="form-group">
-											<label for="inputPassword1" class="col-lg-2 control-label">Message</label>
-											<div class="col-lg-10">
-												<textarea class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="Your message..."></textarea>
-											</div>
-										</div>
-															
-										<div class="form-group">
-											<div class="col-lg-offset-2 col-lg-10">
-												<button type="submit" class="btn btn-default">
-												Send Message
-												</button>
-											</div>
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>    	
-					</div>	    	
-				</div>
+ 
+ 
+    <div class="content_area1">
+	    <div class= "content">
+		    <div id = "Video_area">
+			 
+				<video width="620" height="440" src="http://localhost/krulmilitia/vid/personaltraining_HD.mp4" controls type="video/mp4" >
+				
+				  <p>Your browser doesn't support HTML5 video. </p> 
+				</video>
+				
+
+			</div> 
+				<div class="welcomTx1">
+					<div class="price_PT">
+					 <h4>[ Local Members Only ]</h4>
+						<h4 style="color:red;">Personal Training 
+						<br>(Raleigh , Durham , Apex NC) </h4>
+						<h5>For Retro Members =  $35 (1) 30 Min Session </h5>
+						<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="9Y5FQS3M4F7L8">
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+						</form>
+						 <br>
+						 <h5>For None Members =  $45 (1) 30 Min Session </h5>
+						 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="MQB8336N6DYLS">
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+						</form>
+					</div>
+				</div>	
 		</div>
-				
-				
-				
-				
-				
-				
-	        <div class="footer">
-	         <h3 class="contactText"> 919-302-0678 | 4900 NC-55, Durham, NC 27713 </h3><br>
+    </div>
+ <div class="footer">
+	         <h3 class="contactText"> 919-302-0678 | 7101 Glenwood Ave, Raleigh, NC 27612 </h3><br>
 	        </div>					
  </div> /* End of Wrapper*/
 	
