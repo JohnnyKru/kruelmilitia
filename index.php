@@ -35,8 +35,13 @@
 			<nav>
 				<ul>
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/">HOME</a></li>
+<<<<<<< HEAD
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/johnnykru.php" >COACH JOHNNY </a> </li>
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/PersonalTraining.php">PERSONAL TRAINING</a></li>
+=======
+				<li><a href="https://whispering-inlet-81728.herokuapp.com/PersonalTraining.php">PERSONAL TRAINING</a></li>
+				<li>CONTACT</li>
+>>>>>>> 5ea930ed47760885cad48f240de2b55762d94930
 				</ul>
 			</nav>
 		</header>	
@@ -149,6 +154,10 @@
 	         <h3 class="contactText"> 919-302-0678 | 4900 NC-55, Durham, NC 27713 </h3><br>
 	        </div>					
  </div> /* End of Wrapper*/
+<<<<<<< HEAD
+=======
+	
+>>>>>>> 5ea930ed47760885cad48f240de2b55762d94930
 	<script src="https://whispering-inlet-81728.herokuapp.com/javascript.js"></script> 
 				
 	
