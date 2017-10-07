@@ -1,9 +1,12 @@
 $(document).ready(function(){
 	 
-					
-	
+				
 
 });
+
+
+
+
 	function func1(){
 		$("#signUp_area").hide();	
 	}

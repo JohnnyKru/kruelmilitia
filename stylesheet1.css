@@ -15,7 +15,7 @@ a{
 }
 p{
 	color:black;
-	font-size:15px;
+	font-size:18px;
 }
 h2{
 	font-family:blade;
@@ -41,7 +41,7 @@ nav{
 	top:0px;
 	left:0%;
 	width:100%;
-	height:50px;
+	height:55px;
 	width:100%;
 	background:black;
 	
@@ -51,7 +51,10 @@ ul {
 	left:50%;
 	padding:20px;
 }
-
+ul :HOVER{
+	background:white;
+	color:black;
+}
 
 li{
 	
@@ -64,14 +67,16 @@ li{
 
 .content_area{
 	
-	background-image: url('http://localhost/kruelmilitia/images/wallup-301745.jpg');
-    background-repeat: no-repeat;
+	background-image: url('http://localhost/kruelmilitia/images/Muay-Thai.jpg');
+    background-repeat:no-repeat;
     background-attachment: fixed;	
+	background-size: cover;
 }
 .content_area1{
-	background-image: url('http://localhost/kruelmilitia/images/skyscrapers_5k-wide.jpg');
+	background-image: url('http://localhost/kruelmilitia/images/wallup-301745.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;	
+    background-attachment: fixed;
+    	background-size: cover;
 }
 .content{
 height:1000px;
@@ -79,12 +84,16 @@ height:1000px;
 
 #Video_area{
 position:relative;
-top:10%;
+top:145px;
 left:10%;
+width:620px;
+height:700px;
+background:black;
+
 }
 
 #login_area{
-	
+	display:none;
 	position:absolute;
     top:20%;
 	left:10%;
@@ -107,6 +116,7 @@ left:10%;
 }
 
 #signUp_area{
+	display:none;
 	position:absolute;
 	top:20%;
 	left:10%;
@@ -133,9 +143,9 @@ left:10%;
 .welcomTx{
 	position:absolute;
 	top:20%;
-	left:50%;
+	left:10%;
 	width:600px;
-	height:700px;
+	height:750px;
 	padding:15px;
 	background-color: white;
 	border: solid 2.1px #3498DB;
@@ -162,26 +172,15 @@ left:10%;
 	color:white;
 }
 
-.form-horizontal{
-	position:relative;
-	width:400px;
-	height:300px;
-	float:left;
-	
-}
-.form-group{
-	width:400px;
-	float:right;
-	
-}
+
 
 #inputName, #inputEmail, #inputSubject,#inputMessage{
 	border: solid 1px #3498DB;
 }
 
-
-
-
+.price_PT{
+	display:none;
+}
 
 
 
