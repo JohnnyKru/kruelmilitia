@@ -34,14 +34,11 @@
 			<nav>
 				<ul>
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/">HOME</a></li>
-<<<<<<< HEAD
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/johnnykru.php" >COACH JOHNNY </a> </li>
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/PersonalTraining.php">PERSONAL TRAINING</a></li>
-=======
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/PersonalTraining.php">PERSONAL TRAINING</a></li>
 				<li>CONTACT</li>
 				<li onclick="signUp()">Log In </li>
->>>>>>> 5ea930ed47760885cad48f240de2b55762d94930
 				</ul>
 			</nav>
 		</header>	
@@ -50,17 +47,10 @@
     <div class="content_area1">
 	    <div class= "content">
 		    <div id = "Video_area">
-			 
-<<<<<<< HEAD
 				<video width="620" height="440" src="http://localhost/kruelmilitia/vid/PTMuayThai_HD" controls type="video/mp4" >
-=======
-				<video width="620" height="440" src="https://whispering-inlet-81728.herokuapp.com/vid/personaltraining_HD.mp4" controls type="video/mp4" >
->>>>>>> 5ea930ed47760885cad48f240de2b55762d94930
-				
+				<video width="620" height="440" src="https://whispering-inlet-81728.herokuapp.com/vid/personaltraining_HD.mp4" controls type="video/mp4" >	
 				  <p>Your browser doesn't support HTML5 video. </p> 
 				</video>
-				
-
 			</div> 
 				<div class="welcomTx1">
 					<div class="price_PT">
@@ -90,9 +80,6 @@
 	         <h3 class="contactText"> 919-302-0678 | 7101 Glenwood Ave, Raleigh, NC 27612 </h3><br>
 	        </div>					
  </div> /* End of Wrapper*/
-	
 	<script src="https://whispering-inlet-81728.herokuapp.com/javascript.js"></script> 
-				
-	
   </body>
 </html>
