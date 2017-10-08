@@ -67,16 +67,13 @@ li{
 
 .content_area{
 	
-	background-image: url('http://localhost/kruelmilitia/images/Muay-Thai.jpg');
-    background-repeat:no-repeat;
-	background-image: url('https://whispering-inlet-81728.herokuapp.com/images/wallup-301745.jpg');
+	background-image: url('http://localhost/kruelmilitia/images/fightpose.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;	
 	background-size: cover;
 }
 .content_area1{
 	background-image: url('http://localhost/kruelmilitia/images/wallup-301745.jpg');
-	background-image: url('https://whispering-inlet-81728.herokuapp.com/images/skyscrapers_5k-wide.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -182,7 +179,7 @@ background:black;
 }
 
 .price_PT{
-	display:none;
+
 }
 
 
