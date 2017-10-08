@@ -37,6 +37,7 @@
 		</header>	
 		<div class="content_area">	
 				<div class="content">
+				<img src="https://whispering-inlet-81728.herokuapp.com/images/Muay-Thai.jpg">
 						<div id="login_area">
 							<div id="login_wrapper">
 							 <h2>Log In </h2>

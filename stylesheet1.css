@@ -67,7 +67,7 @@ li{
 
 .content_area{
 	
-	background-image: url('../kruelmilitia/images/Muay-Thai.jpg');
+	background-image: url('https://whispering-inlet-81728.herokuapp.com/images/Muay-Thai.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;	
 	background-size: cover;
