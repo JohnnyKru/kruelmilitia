@@ -25,30 +25,21 @@
 
   
   <body  <body onload="func1();">
-   <script>
-   
-   </script>
-   
-   
    <div class="wrapper">
         <header> <h2 id="title_logo"> This is Kruel Militia </h2> 
 			<nav>
 				<ul>
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/">HOME</a></li>
-<<<<<<< HEAD
+
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/johnnykru.php" >COACH JOHNNY </a> </li>
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/PersonalTraining.php">PERSONAL TRAINING</a></li>
-=======
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/PersonalTraining.php">PERSONAL TRAINING</a></li>
 				<li>CONTACT</li>
->>>>>>> 5ea930ed47760885cad48f240de2b55762d94930
 				</ul>
 			</nav>
 		</header>	
 		<div class="content_area">	
 				<div class="content">
-				
-		
 						<div id="login_area">
 							<div id="login_wrapper">
 							 <h2>Log In </h2>
@@ -76,68 +67,66 @@
 								<a onclick = "login()">Log In</a> 
 							</div>							
 						</div>
-					
 					<div class="welcomTx">
 						<h1> About Kruel Militia </h1>
 						<p>Kruel Militia is geared towards active individuals mastering self-development through combat sports, health/fitness and social activities.With personal development comes clarity. </p>
 						<p>Even with an improved sense of direction, there will always be multiple tasks looking and waiting to challenge us all.<p>
 						<p>With these challenges, you will need a team behind you. Take charge -</p>
 						<p>Join the Militia Today!!</p>
-						<br>
-							
+						<br>	
 						 <div class="container-fluid">
 							<div class="row">  
 								<div class="contactForm col-lg-12 col-md-8 col-sm-6 col-xs-4">
 								 <h2 id ="mailing_title">Have Questions ? </h2><br/>
 									<form name="contactform" method="post" action="email_form.php">
-<table width="450px">
-<tr>
- <td valign="top">
-  <label for="first_name">First Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top"">
-  <label for="last_name">Last Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="email">Email Address *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="email" maxlength="80" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="telephone">Telephone Number</label>
- </td>
- <td valign="top">
-  <input  type="text" name="telephone" maxlength="30" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="comments">Comments *</label>
- </td>
- <td valign="top">
-  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
- </td>
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-  <input type="submit" value="Submit">   
- </td>
-</tr>
-</table>
-</form>
+									<table width="450px">
+									<tr>
+									 <td valign="top">
+									  <label for="first_name">First Name *</label>
+									 </td>
+									 <td valign="top">
+									  <input  type="text" name="first_name" maxlength="50" size="30">
+									 </td>
+									</tr>
+									<tr>
+									 <td valign="top"">
+									  <label for="last_name">Last Name *</label>
+									 </td>
+									 <td valign="top">
+									  <input  type="text" name="last_name" maxlength="50" size="30">
+									 </td>
+									</tr>
+									<tr>
+									 <td valign="top">
+									  <label for="email">Email Address *</label>
+									 </td>
+									 <td valign="top">
+									  <input  type="text" name="email" maxlength="80" size="30">
+									 </td>
+									</tr>
+									<tr>
+									 <td valign="top">
+									  <label for="telephone">Telephone Number</label>
+									 </td>
+									 <td valign="top">
+									  <input  type="text" name="telephone" maxlength="30" size="30">
+									 </td>
+									</tr>
+									<tr>
+									 <td valign="top">
+									  <label for="comments">Comments *</label>
+									 </td>
+									 <td valign="top">
+									  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+									 </td>
+									</tr>
+									<tr>
+									 <td colspan="2" style="text-align:center">
+									  <input type="submit" value="Submit">   
+									 </td>
+									</tr>
+									</table>
+									</form>
 								</div>
 							</div>
 						</div>    	
