@@ -67,25 +67,19 @@ li{
 
 .content_area{
 	
-<<<<<<< HEAD
 	background-image: url('http://localhost/kruelmilitia/images/Muay-Thai.jpg');
     background-repeat:no-repeat;
-=======
 	background-image: url('https://whispering-inlet-81728.herokuapp.com/images/wallup-301745.jpg');
     background-repeat: no-repeat;
->>>>>>> 5ea930ed47760885cad48f240de2b55762d94930
     background-attachment: fixed;	
 	background-size: cover;
 }
 .content_area1{
-<<<<<<< HEAD
 	background-image: url('http://localhost/kruelmilitia/images/wallup-301745.jpg');
-=======
 	background-image: url('https://whispering-inlet-81728.herokuapp.com/images/skyscrapers_5k-wide.jpg');
->>>>>>> 5ea930ed47760885cad48f240de2b55762d94930
     background-repeat: no-repeat;
     background-attachment: fixed;
-    	background-size: cover;
+    background-size: cover;
 }
 .content{
 height:1000px;
@@ -161,7 +155,7 @@ background:black;
 
 }
 .welcomTx1{
-		position:absolute;
+	position:absolute;
 	top:20%;
 	left:50%;
 	width:600px;
