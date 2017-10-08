@@ -129,23 +129,11 @@
 						</div>    	
 					</div>	    	
 				</div>
-		</div>
-				
-				
-				
-				
-				
-				
+		</div>		
 	        <div class="footer">
 	         <h3 class="contactText"> 919-302-0678 | 4900 NC-55, Durham, NC 27713 </h3><br>
-	        </div>					
- </div> /* End of Wrapper*/
-<<<<<<< HEAD
-=======
-	
->>>>>>> 5ea930ed47760885cad48f240de2b55762d94930
-	<script src="https://whispering-inlet-81728.herokuapp.com/javascript.js"></script> 
-				
-	
+	        </div>
+</div> /* End of Wrapper*/
+	<script src="https://whispering-inlet-81728.herokuapp.com/javascript.js"></script> 	
   </body>
 </html>
