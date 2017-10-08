@@ -30,11 +30,8 @@
 			<nav>
 				<ul>
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/">HOME</a></li>
-
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/johnnykru.php" >COACH JOHNNY </a> </li>
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/PersonalTraining.php">PERSONAL TRAINING</a></li>
-				<li><a href="https://whispering-inlet-81728.herokuapp.com/PersonalTraining.php">PERSONAL TRAINING</a></li>
-				<li>CONTACT</li>
 				</ul>
 			</nav>
 		</header>	
@@ -89,7 +86,7 @@
 									 </td>
 									</tr>
 									<tr>
-									 <td valign="top"">
+									 <td valign="top">
 									  <label for="last_name">Last Name *</label>
 									 </td>
 									 <td valign="top">

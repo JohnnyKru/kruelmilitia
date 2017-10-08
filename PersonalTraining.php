@@ -36,7 +36,6 @@
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/">HOME</a></li>
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/johnnykru.php" >COACH JOHNNY </a> </li>
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/PersonalTraining.php">PERSONAL TRAINING</a></li>
-				<li><a href="https://whispering-inlet-81728.herokuapp.com/PersonalTraining.php">PERSONAL TRAINING</a></li>
 				</ul>
 			</nav>
 		</header>	
