@@ -73,7 +73,7 @@ li{
 	background-size: cover;
 }
 .content_area1{
-	background-image: url('../kruelmilitia/images/wallup-301745.jpg');
+	background-image: url('https://whispering-inlet-81728.herokuapp.com/images/wallup-301745.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
