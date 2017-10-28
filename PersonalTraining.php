@@ -34,7 +34,7 @@
 			<nav>
 				<ul>
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/">HOME</a></li>
-				<li><a href="https://whispering-inlet-81728.herokuapp.com/johnnykru.php" >COACH JOHNNY </a> </li>
+				<li><a href="https://whispering-inlet-81728.herokuapp.com/KruJohnny.html" >COACH JOHNNY </a> </li>
 				<li><a href="https://whispering-inlet-81728.herokuapp.com/PersonalTraining.php">PERSONAL TRAINING</a></li>
 				</ul>
 			</nav>
@@ -44,8 +44,8 @@
     <div class="content_area1">
 	    <div class= "content">
 		    <div id = "Video_area">
-				<video width="620" height="440" src="http://localhost/kruelmilitia/vid/PTMuayThai_HD" controls type="video/mp4" >
-				<video width="620" height="440" src="https://whispering-inlet-81728.herokuapp.com/vid/personaltraining_HD.mp4" controls type="video/mp4" >	
+				<video width="620" height="440" src="https://whispering-inlet-81728.herokuapp.com/vid/PTMuayThai_HD_(1).mp4" controls type="video/mp4" >
+				<video width="620" height="440" src="https://whispering-inlet-81728.herokuapp.com/vid/PTMuayThai_HD_(1).mp4" controls type="video/mp4" >	
 				  <p>Your browser doesn't support HTML5 video. </p> 
 				</video>
 			</div> 
@@ -54,14 +54,6 @@
 					 <h4>[ Local Members Only ]</h4>
 						<h4 style="color:red;">Personal Training 
 						<br>(Raleigh , Durham , Apex NC) </h4>
-						<h5>For Retro Members =  $35 (1) 30 Min Session </h5>
-						<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-						<input type="hidden" name="cmd" value="_s-xclick">
-						<input type="hidden" name="hosted_button_id" value="9Y5FQS3M4F7L8">
-						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-						</form>
-						 <br>
 						 <h5>For None Members =  $45 (1) 30 Min Session </h5>
 						 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_s-xclick">
@@ -69,6 +61,24 @@
 						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 						</form>
+						<br>
+						<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="8QB72WQ2GPCM8">
+						<table>
+						<tr><td><input type="hidden" name="on0" value="" Bring a Friend "">" Bring a Friend "</td></tr><tr><td><select name="os0">
+							<option value="1  Buddy Session (2 ppl  $60)">1  Buddy Session (2 ppl  $60) $60.00 USD</option>
+							<option value="2  Buddy Session (2 ppl $55)">2  Buddy Session (2 ppl $55) $110.00 USD</option>
+							<option value="4  Buddy Session (2 ppl $50)">4  Buddy Session (2 ppl $50) $180.00 USD</option>
+						</select> </td></tr>
+						</table>
+						<input type="hidden" name="currency_code" value="USD">
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+						</form>
+
+						 <br>
+				
 					</div>
 				</div>	
 		</div>
