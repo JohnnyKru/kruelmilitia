@@ -1,7 +1,6 @@
 
 body {
 margin:0;
-background:grey;
 }
 <!-- front 
 @font-face {
@@ -24,10 +23,28 @@ h2{
 header{
 	position:fixed;
 	width: 100%;
+	height:70px;
 	background:black;
 	color:white;
 	z-index:5;
 }
+
+.jk_pix{
+	position:absolute;
+	top:0px;
+	left:0px;
+height:400px;
+width:600px;
+
+}
+.banner{
+	position:absolute;
+	top:455px;
+	left:0px;
+	height:300px;
+	width:300px;	
+}
+
 #title_logo{
 	position:absolute;
 	top:0px;
@@ -83,23 +100,29 @@ li{
 height:1000px;
 }
 .main_bio{
-	position: absolute;
-	top:50px;
-	left:30px;
-	width:100%;
-	height:1000px;
-	
+	position:absolute;
+	top:160px;
+	left:900px;
+	width:600px;
+	height:400px;
 }
 #Video_area{
 position:relative;
 top:145px;
 left:10%;
 width:620px;
-height:700px;
+height:400px;
 background:black;
 
 }
-
+.united-logo{
+position:relative;
+top:50px;
+left:10%;	
+height:250px;
+width:400px;
+background:gray;	
+}
 #login_area{
 	display:none;
 	position:absolute;
@@ -190,15 +213,7 @@ background:black;
 
 }
 
-jk{
-	height:300px;
-	width:300px;
-	background-image:url("https://calm-peak-10528.herokuapp.com/img/Johnnybw.png");
-	background-repeat: no-repeat;
-  	background-size: cover;
-	border-radius: 7px 7px;	
-	border:solid 1px black;
-}
+
 
 
 
