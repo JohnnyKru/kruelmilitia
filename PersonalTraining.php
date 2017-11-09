@@ -31,13 +31,7 @@
    
    <div class="wrapper">
         <header> <h2 id="title_logo"> This is Kruel Militia </h2> 
-			<nav>
-				<ul>
-				<li><a href="https://whispering-inlet-81728.herokuapp.com/">HOME</a></li>
-				<li><a href="https://whispering-inlet-81728.herokuapp.com/KruJohnny.html" >COACH JOHNNY </a> </li>
-				<li><a href="https://whispering-inlet-81728.herokuapp.com/PersonalTraining.php">PERSONAL TRAINING</a></li>
-				</ul>
-			</nav>
+			<?php include 'navbar.php';?>
 		</header>	
  
  
@@ -68,6 +62,7 @@
 <!======== Second Promo =================>
 						<br>
 						<br>
+						<h3>Kids Buddy Sessions</h3>
 						<br>
 						<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
 							<input type="hidden" name="cmd" value="_s-xclick">

@@ -25,15 +25,9 @@
 
   
   <body  <body onload="func1();">
-   <div class="wrapper">
+   <div class="container">
         <header> <h2 id="title_logo"> This is Kruel Militia </h2> 
-			<nav>
-				<ul>
-				<li><a href="https://whispering-inlet-81728.herokuapp.com/">HOME</a></li>
-				<li><a href="https://whispering-inlet-81728.herokuapp.com/KruJohnny.html" >COACH JOHNNY </a> </li>
-				<li><a href="https://whispering-inlet-81728.herokuapp.com/PersonalTraining.php">PERSONAL TRAINING</a></li>
-				</ul>
-			</nav>
+		<?php include 'navbar.php';?>
 		</header>	
 		
 		<div class="content_area">	

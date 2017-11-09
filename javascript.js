@@ -3,10 +3,6 @@ $(document).ready(function(){
 				
 
 });
-
-
-
-
 	function func1(){
 		$("#signUp_area").hide();	
 	}
@@ -16,8 +12,8 @@ $(document).ready(function(){
 		$("#login_area").hide(2000);
 	}
 	function login(){
-		 $("#login_area").show(4000);
-	$("#signUp_area").hide(2000);
+		 $("# <?php include 'navbar.php';?>").show(1000);
+	$("#signUp_area").hide(1000);
 	}	
 	
 
