@@ -1,19 +1,21 @@
 $(document).ready(function(){
 	 
-				
-
-});
-	function func1(){
-		$("#signUp_area").hide();	
+			function func1(){
+		$("#login_area").hide();	
+		$("#signUp_area").hide();
 	}
 
 	function signUp(){
-		$("#signUp_area").show(4000);	
-		$("#login_area").hide(2000);
+		$("#signUp_area").show();	
+		$("#login_area").hide();
 	}
+	
 	function login(){
-		 $("# <?php include 'navbar.php';?>").show(1000);
-	$("#signUp_area").hide(1000);
-	}	
+		$("#login_area").show();
+	$("#signUp_area").hide();
+	}			
+
+});
+
 	
 

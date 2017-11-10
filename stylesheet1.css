@@ -4,23 +4,6 @@ margin:0;
 background:black;
 }
 
-a{
-	margin: 20px ;
-	color:red;
-}
-a:hover { 
-    background-color: yellow;
-}
-
-
-p{
-	color:black;
-	font-size:18px;
-}
-h2{
-	font-family:blade;
-	color:black;
-}
 header{
 	position:fixed;
 	width: 100%;
@@ -30,8 +13,8 @@ header{
 }
 
 .jk_pix{
-	position:absolute;
-	top:0px;
+	position:relative;
+	top:50px;
 	left:0px;
 }
 .banner{
@@ -64,49 +47,44 @@ header{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+	overflow: scroll;
 
 }
 .content{
 height:1000px;
 }
-.main_bio{
-	position:absolute;
-	top:160px;
-	left:800px;
-	width:600px;
-	height:400px;
-}
+
+
 #Video_area{
-position:relative;
-top:145px;
-left:10%;
-width:620px;
-height:400px;
-background:black;
+	position:relative;
+	top:100px;
+	background:black;
+	border: solid 1px white;
+	border-radius: 15px 15px;
 
 }
 .united-logo{
-position:relative;
-top:50px;
-left:10%;	
-height:250px;
-width:400px;
-background:gray;	
+	position:relative;
+	top:-10px;
+	left:10px;	
+	height:250px;
+	width:400px;
+	background:gray;	
 }
+
+<!=======  Login Area =====>
 #login_area{
-	display:none;
 	position:absolute;
-    top:0px;
-	left:0px;
-	height:1000px;
-	width:500px;
+	top:100px;
+	left:300px;
+	height:400px;
+	width:400px;
 	margin: 0 auto;
 	border: solid 1px red;
-	border-radius: 15px 15px;
-  background: -webkit-linear-gradient(left top, #1BC5F9, #3498DB); /* For Safari*/
-  background: -o-linear-gradient(bottom right, #1BC5F9, #3498DB); /* For Opera */
-  background: -moz-linear-gradient(bottom right, #1BC5F9,#3498DB); /* For Firefox */
-  background: linear-gradient(to bottom right, #1BC5F9, #3498DB); /* Standard syntax */
+	background: -webkit-linear-gradient(left top, #1BC5F9, #3498DB); /* For Safari*/
+	background: -o-linear-gradient(bottom right, #1BC5F9, #3498DB); /* For Opera */
+	background: -moz-linear-gradient(bottom right, #1BC5F9,#3498DB); /* For Firefox */
+	background: linear-gradient(to bottom right, #1BC5F9, #3498DB); /* Standard syntax */
 }
 #login_wrapper{
 	position:relative;
@@ -117,20 +95,19 @@ background:gray;
 	margin:0px auto;	
 }
 
+<!=======  Sign Up Area =====>
 #signUp_area{
-	display:none;
-	position:absolute;
-	 top:0px;
-	left:0px;
-	height:1000px;
-	width:500px;
+		position:absolute;
+	top:100px;
+	left:300px;
+	height:400px;
+	width:400px;
 	padding:25px;
 	border: solid 1px red;
-	border-radius: 15px 15px;
-  background: -webkit-linear-gradient(left top, #1BC5F9, #3498DB); /* For Safari*/
-  background: -o-linear-gradient(bottom right, #1BC5F9, #3498DB); /* For Opera */
-  background: -moz-linear-gradient(bottom right, #1BC5F9,#3498DB); /* For Firefox */
-  background: linear-gradient(to bottom right, #1BC5F9, #3498DB); /* Standard syntax */
+	background: -webkit-linear-gradient(left top, #1BC5F9, #3498DB); /* For Safari*/
+	background: -o-linear-gradient(bottom right, #1BC5F9, #3498DB); /* For Opera */
+	background: -moz-linear-gradient(bottom right, #1BC5F9,#3498DB); /* For Firefox */
+	background: linear-gradient(to bottom right, #1BC5F9, #3498DB); /* Standard syntax */
 }
 #signUp_wrapper{
 	position:relative;
@@ -145,7 +122,7 @@ background:gray;
 
 .welcomTx{
 	position:absolute;
-	top:20%;
+	top:100px;
 	left:10%;
 	width:600px;
 	height:750px;
@@ -155,14 +132,14 @@ background:gray;
 
 }
 .welcomTx1{
-	position:absolute;
-	top:20%;
-	left:50%;
-	width:600px;
+	position:relative;
+	top:100px;
+	width:500px;
 	height:700px;
 	padding:15px;
 	background-color: white;
 	border: solid 2.1px #3498DB;
+	border-radius: 15px 15px;
 	
 }
 
@@ -183,7 +160,8 @@ background:gray;
 }
 
 .price_PT{
-
+position:relative;
+left:10%;
 }
 
 

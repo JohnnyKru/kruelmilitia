@@ -20,11 +20,11 @@
             <li><a href="#">Page 1-3</a></li>
           </ul>
         </li>
-        <li><a href="https://whispering-inlet-81728.herokuapp.com/KruJohnny.php">Johnny Kru </a></li>
-        <li><a href="https://whispering-inlet-81728.herokuapp.com/PersonalTraining.php">Personal Training</a></li>
+        <li><a href="http://localhost/kruelmilitia/KruJohnny.php">Johnny Kru </a></li>
+        <li><a href="http://localhost/kruelmilitia/PersonalTraining.php">Personal Training</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a onClick="signUp()"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a onClick="signUp();"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         <li><a onClick="login();"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>

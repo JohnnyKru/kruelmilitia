@@ -24,31 +24,33 @@
 		 </head>
 
   
-  <body  <body onload="func1();">
-   <div class="container">
-        <header> <h2 id="title_logo"> This is Kruel Militia </h2> 
-		<?php include 'navbar.php';?>
-		</header>	
-		
-		<div class="content_area">	
-		   <div class="jk_pix"><img src="https://whispering-inlet-81728.herokuapp.com/images/JKru.jpg" alt="" class="img-responsive" /></div>
-			<div class="main_bio">
-				<h3>A refugee who escaped communism, he experienced the hardship of life. Moving to a new country, learning a new language, overcame bullying and racism, he noticed that no matter who you are or what color you are, people wants the same thing in life. </h3>
-				 <h3>Ask for Johnny Kru Muay Thai Class. </h3>
-				<h3>Fighters of all background will benefit from Coach Keokongsy's instructions.  </h3>
-				<h3>" Most of the fighters I worked with - I do not restrict them from learning just Muay Thai. </h3>
-				<h3>Everyone's abilities depend on  his or her awareness in movement."</h3>
+  <body>
+    <div class="header"><?php include 'navbar.php';?></div>
+	        <div class="container-fluid">
+			    <div class="row">			
+					 <div class="jk_pix col-xs-12 col-md-6 col-lg-8">
+					 <img src="https://whispering-inlet-81728.herokuapp.com/images/JKru.jpg" alt="" class="img-responsive" />
+					 </div>
+				</div>
+			
+				<div class="row"> 
+					<div class=" col-sm-4 col-md-8 col-lg-6">
+						<h3>A refugee who escaped communism, he experienced the hardship of life. Moving to a new country, learning a new language, overcame bullying and racism, he noticed that no matter who you are or what color you are, people wants the same thing in life. </h3>
+						<h3>Ask for Johnny Kru Muay Thai Class. </h3>
+						<h3>Fighters of all background will benefit from Coach Keokongsy's instructions.  </h3>
+						<h3>" Most of the fighters I worked with - I do not restrict them from learning just Muay Thai. </h3>
+						<h3>Everyone's abilities depend on  his or her awareness in movement."</h3>
 
-				<h3>"No matter what background you train in ( Boxing, Kickboxing, Karate, Tea Kon Do and MMA), 
-				I teach the effectiveness of Muay Thai and what technique will benefit your chance of victory. "</h3>		
-		    </div>	
-			<div class="banner"><img src="https://whispering-inlet-81728.herokuapp.com/images/fightpose.png"></div>
-		</div>
-	</div>		
-	        <div class="footer">
-	         <h3 class="contactText"> 919-302-0678 | 4900 NC-55, Durham, NC 27713 </h3><br>
-	        </div>
-</div> /* End of Wrapper*/
+						<h3>"No matter what background you train in ( Boxing, Kickboxing, Karate, Tea Kon Do and MMA), 
+						I teach the effectiveness of Muay Thai and what technique will benefit your chance of victory. "</h3>	
+					</div>	
+				</div>		
+            </div>	
+	
+				
+			<div class="footer">
+				<h3 class="contactText"> 919-302-0678 | 4900 NC-55, Durham, NC 27713 </h3><br>
+			</div>
 	<script src="https://whispering-inlet-81728.herokuapp.com/javascript.js"></script> 	
   </body>
 </html>

@@ -23,23 +23,89 @@
 		<link rel="stylesheet"   href="stylesheet1.css">
  </head>
 
- <body>
+ <body >
+ <header>
     <?php include 'navbar.php';?>
- <div id="<?php include 'login.php';?>"></div>
-	<div class="container-fluid">
-	    <div class="row">
-		    <div class="col-md-4">
-			
-			
-			
-			
-			 <div class="footer">
-	         <h3 class="contactText"> 919-302-0678 | 4900 NC-55, Durham, NC 27713 </h3><br>
-	         </div>
-			</div>
-		</div>
-	</div>
+</header>
+	<div class="content_area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+			        <div class="welcomTx">
+						<h1> About Kruel Militia </h1>
+						<p>Kruel Militia is geared towards active individuals mastering self-development through combat sports, health/fitness and social activities.With personal development comes clarity. </p>
+						<p>Even with an improved sense of direction, there will always be multiple tasks looking and waiting to challenge us all.<p>
+						<p>With these challenges, you will need a team behind you. Take charge -</p>
+						<p>Join the Militia Today!!</p>
+						<br>	
+								
 
+								<div class="container-fluid">
+									<div class="row">  
+										<div class="contactForm col-md-6 col-xs-4">
+										 <h2 id ="mailing_title">Have Questions ? </h2><br/>
+											<form name="contactform" method="post" action="email_form.php">
+											<table width="450px">
+											<tr>
+											 <td valign="top col-md-4 col-xs-4">
+											  <label for="first_name">First Name *</label>
+											 </td>
+											 <td valign="top col-md-4 col-xs-4">
+											  <input  type="text" name="first_name" maxlength="50" size="30">
+											 </td>
+											</tr>
+											<tr>
+											 <td valign="top col-md-4 col-xs-4">
+											  <label for="last_name">Last Name *</label>
+											 </td>
+											 <td valign="top col-md-4 col-xs-4">
+											  <input  type="text" name="last_name" maxlength="50" size="30">
+											 </td>
+											</tr>
+											<tr>
+											 <td valign="top col-md-4 col-xs-4">
+											  <label for="email">Email Address *</label>
+											 </td>
+											 <td valign="top col-md-4 col-xs-4">
+											  <input  type="text" name="email" maxlength="80" size="30">
+											 </td>
+											</tr>
+											<tr>
+											 <td valign="top col-md-4 col-xs-4">
+											  <label for="telephone">Telephone Number</label>
+											 </td>
+											 <td valign="top col-md-4 col-xs-4">
+											  <input  type="text" name="telephone" maxlength="30" size="30">
+											 </td>
+											</tr>
+											<tr>
+											 <td valign="top col-md-4 col-xs-4">
+											  <label for="comments">Comments *</label>
+											 </td>
+											 <td valign="top col-md-4 col-xs-4">
+											  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+											 </td>
+											</tr>
+											<tr>
+											 <td colspan="2" style="text-align:center">
+											  <input type="submit" value="Submit">   
+											 </td>
+											</tr>
+											</table>
+											</form>
+										</div>
+									</div>
+								</div>    	
+					       
+					</div>
+				</div>
+			</div>	
+		</div>	
+    </div>
+	
+    <div class="footer">
+	<h3 class="contactText"> 919-302-0678 | 4900 NC-55, Durham, NC 27713 </h3><br>
+	</div>
 	<script src="https://whispering-inlet-81728.herokuapp.com/javascript.js"></script> 	
   </body>
 </html>
