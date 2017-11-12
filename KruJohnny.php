@@ -30,12 +30,12 @@
 			<div class="container-fluid">
 			    <div class="row">			
 					 <div class="jk_pix col-xs-12 col-sm-12 col-md-6 col-lg-4">
-					 <img src="https://whispering-inlet-81728.herokuapp.com/images/JKru.jpg" alt="" class="img-responsive" />
-					  <div class="imag1"><img src="https://whispering-inlet-81728.herokuapp.com/images/images/fightpose.png" width="600" height="450" alt="" class="img-responsive"/>
+					 <img src="https://secure-wildwood-31684.herokuapp.com/JKru.jpg" alt="" class="img-responsive" />
+					  <div class="imag1"><img src="https://secure-wildwood-31684.herokuapp.com/images/fightpose.png" width="600" height="450" alt="" class="img-responsive"/>
 					 </div>
-					 <div class="imag1"><img src="https://whispering-inlet-81728.herokuapp.com/images/kmteamspar.jpg" width="600" height="450" alt="" class="img-responsive"/>
+					 <div class="imag1"><img src="https://secure-wildwood-31684.herokuapp.com/images/kmteamspar.jpg" width="600" height="450" alt="" class="img-responsive"/>
 					 </div>
-					 <div class="imag1"><img src="https://whispering-inlet-81728.herokuapp.com/images/LC2.jpg" width="600" height="450" alt="" class="img-responsive"/>
+					 <div class="imag1"><img src="https://secure-wildwood-31684.herokuapp.com/images/LC2.jpg" width="600" height="450" alt="" class="img-responsive"/>
 					 </div>
 					</div>
 			 
@@ -60,7 +60,7 @@
 		<div class="footer"><h3 class="contactText"> 919-302-0678 | 4900 NC-55, Durham, NC 27713 </h3><br></div>
 		
 		
-	    <script src="https://whispering-inlet-81728.herokuapp.com/javascript.js"></script> 	
+	    <script src="https://secure-wildwood-31684.herokuapp.com/javascript.js"></script> 	
   </body>
 </html>
 

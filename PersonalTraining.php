@@ -32,7 +32,7 @@
 			<div class = "row">
 					<div class ="col-xs-12 col-md-6 col-lg-6 ">
 						<div id ="Video_area" >
-							<video style="max-width:100% " src="https://whispering-inlet-81728.herokuapp.com/vid/PTMuayThai_HD_(1).mp4" controls type="video/mp4" >	
+							<video style="max-width:100% " src="https://secure-wildwood-31684.herokuapp.com/PTMuayThai_HD_(1).mp4" controls type="video/mp4" >	
 							  <p>Your browser doesn't support HTML5 video. </p> 
 							</video>
 							<br>
@@ -74,7 +74,7 @@
 								</form>
 								<br>
 								<br>
-								<div class="united-logo"><h1>Now Training @</h1><img src="http://localhost/kruelmilitia/images/united-logo.png"/>
+								<div class="united-logo"><h1>Now Training @</h1><img src="https://secure-wildwood-31684.herokuapp.com/images/united-logo.png"/>
 								<h1>4900 NC-55, Durham, NC 27713</h1>
 								</div>		
 							</div>
@@ -87,6 +87,6 @@
 	<div class="footer">
 		<h3 class="contactText"> 919-302-0678 | 4900 NC-55, Durham, NC 27713 </h3><br>
 	</div>
-	 <script src="https://whispering-inlet-81728.herokuapp.com/javascript.js"></script> 
+	 <script src="https://secure-wildwood-31684.herokuapp.com/javascript.js"></script> 
     </body>
 </html>
