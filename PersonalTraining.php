@@ -31,8 +31,9 @@
 		<div class= "container-fluid">
 			<div class = "row">
 					<div class ="col-xs-12 col-md-6 col-lg-6 ">
+					
 						<div id ="Video_area" >
-							<video style="max-width:100% " src="https://secure-wildwood-31684.herokuapp.com/vid/PTMuayThai_HD_(1).mp4" controls type="video/mp4" >	
+							<video style="max-width:100%; position:relative ; top:100px;" src="https://secure-wildwood-31684.herokuapp.com/vid/PTMuayThai_HD_(1).mp4" controls type="video/mp4">	
 							  <p>Your browser doesn't support HTML5 video. </p> 
 							</video>
 							<br>
