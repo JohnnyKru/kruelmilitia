@@ -23,87 +23,80 @@
 		<link rel="stylesheet"   href="stylesheet1.css">
  </head>
 
- <body >
+ <body>
  <header>
     <?php include 'navbar.php';?>
 </header>
 	<div class="content_area">
 		<div class="container">
 		    <div class="row">
-			   
-					<div class="welcomTx col-sm-6 col-md-12 col-lg-12">  
-						<div class="kruelIntro col-xs-12 col-sm-12 col-md-12 col-lg-12">					
-						   <h1> About Kruel Militia </h1>
-							<p>Kruel Militia is geared towards active individuals mastering self-development through combat sports, health/fitness and social activities.</p>
-							<p>With personal development comes clarity. Even with an improved sense of direction, there will always be multiple tasks looking and waiting to challenge us all.<p>
-							<p>With these challenges, you will need a team behind you. <br>
-							<p>Take charge now - Join Today!!</p>
-							<br>
-						</div>	
-								
-			  
-					
-							<div class="contactForm col-sm-4 col-lg-6 col-md-4 col-xs-4">
-							 <h2 id ="mailing_title">Have Questions ? </h2><br/>
-								<form name="contactform" method="post" action="email_form.php">
-								<table width="450px">
-								<tr>
-								 <td valign="top col-md-4 col-xs-4">
-								  <label for="first_name">First Name *</label>
-								 </td>
-								 <td valign="top col-md-4 col-xs-4">
-								  <input  type="text" name="first_name" maxlength="50" size="30">
-								 </td>
-								</tr>
-								<tr>
-								 <td valign="top col-md-4 col-xs-4">
-								  <label for="last_name">Last Name *</label>
-								 </td>
-								 <td valign="top col-md-4 col-xs-4">
-								  <input  type="text" name="last_name" maxlength="50" size="30">
-								 </td>
-								</tr>
-								<tr>
-								 <td valign="top col-md-4 col-xs-4">
-								  <label for="email">Email Address *</label>
-								 </td>
-								 <td valign="top col-md-4 col-xs-4">
-								  <input  type="text" name="email" maxlength="80" size="30">
-								 </td>
-								</tr>
-								<tr>
-								 <td valign="top col-md-4 col-xs-4">
-								  <label for="telephone">Telephone Number</label>
-								 </td>
-								 <td valign="top col-md-4 col-xs-4">
-								  <input  type="text" name="telephone" maxlength="30" size="30">
-								 </td>
-								</tr>
-								<tr>
-								 <td valign="top col-md-4 col-xs-4">
-								  <label for="comments">Comments *</label>
-								 </td>
-								 <td valign="top col-md-4 col-xs-4">
-								  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
-								 </td>
-								</tr>
-								<tr>
-								 <td colspan="2" style="text-align:center">
-								  <input type="submit" value="Submit">   
-								 </td>
-								</tr>
-								</table>
-								</form>
-							</div>
+				<div class="welcomTx col-sm-6 col-md-12 col-lg-12">  
+					<div class="kruelIntro col-xs-12 col-sm-12 col-md-12 col-lg-12">					
+					   <h1> About Kruel Militia </h1>
+						<em>Kruel Militia is geared towards active individuals mastering self-development through combat sports, health/fitness and social activities.</em>
+						<em>With personal development comes clarity. Even with an improved sense of direction, there will always be multiple tasks looking and waiting to challenge us all.<em>
+						<em>With these challenges, you will need a team behind you. <em>
+						<em>Take charge now - Join Today!!</em>
+						<br>
 					</div>	
+					
+					<div class="contactForm col-sm-4 col-lg-6 col-md-4 col-xs-4">
+						 <h1 id ="mailing_title">Have Questions ? </h1><br/>
+						 <form name="contactform" method="post" action="email_form.php">
+						 <table width="450px">
+						 <tr>
+						 <td valign="top col-md-4 col-xs-4">
+						  <label for="first_name">First Name *</label>
+						 </td>
+						 <td valign="top col-md-4 col-xs-4">
+						  <input  type="text" name="first_name" maxlength="50" size="30">
+						 </td>
+						</tr>
+						<tr>
+						 <td valign="top col-md-4 col-xs-4">
+						  <label for="last_name">Last Name *</label>
+						 </td>
+						 <td valign="top col-md-4 col-xs-4">
+						  <input  type="text" name="last_name" maxlength="50" size="30">
+						 </td>
+						</tr>
+						<tr>
+						 <td valign="top col-md-4 col-xs-4">
+						  <label for="email">Email Address *</label>
+						 </td>
+						 <td valign="top col-md-4 col-xs-4">
+						  <input  type="text" name="email" maxlength="80" size="30">
+						 </td>
+						</tr>
+						<tr>
+						 <td valign="top col-md-4 col-xs-4">
+						  <label for="telephone">Telephone Number</label>
+						 </td>
+						 <td valign="top col-md-4 col-xs-4">
+						  <input  type="text" name="telephone" maxlength="30" size="30">
+						 </td>
+						</tr>
+						<tr>
+						 <td valign="top col-md-4 col-xs-4">
+						  <label for="comments">Comments *</label>
+						 </td>
+						 <td valign="top col-md-4 col-xs-4">
+						  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+						 </td>
+						</tr>
+						<tr>
+						 <td colspan="2" style="text-align:center">
+						  <input type="submit" value="Submit">   
+						 </td>
+						</tr>
+						</table>
+						</form>
+					</div>
+				</div>		
 			</div>
 		</div>
 	</div>    					       
-	
-		
-			
- 
-	
+
     <div class="footer">
 	<h3 class="contactText"> 919-302-0678 | 4900 NC-55, Durham, NC 27713 </h3><br>
 	</div>

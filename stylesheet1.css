@@ -6,7 +6,9 @@ p , li{
 font-size:18px;
 color:white;
 }
-
+em{
+font-size:18px;	
+}
 body {
 margin:0;
 background:black;
@@ -19,7 +21,7 @@ header{
 	color:white;
 	z-index:5;
 }
-<!=========  INDEX AREA ================>
+
 
 .welcomTx{
 	position:absolute;
@@ -27,7 +29,7 @@ header{
 	width:600px;
 	height:900px;
 	padding:15px;
-	background-color: white;
+	background-color:grey;
 	border: solid 2.1px #3498DB;
 }
 
@@ -43,9 +45,6 @@ header{
 
 
 
-
-
-<!======== PT AREA ========== > 
 #Video_area{
 	position:absolute;
 	background:black;
@@ -106,14 +105,14 @@ left:10%;
 	
 }
 
-<!========================= Background Wallpapers ====================>
+
 
 .content_area{
-	
 	background-image: url('https://secure-wildwood-31684.herokuapp.com/images/Muay-Thai.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;	
 	background-size: cover;
+	overflow: scroll;
 }
 .content_area1{
 	background-image: url('https://secure-wildwood-31684.herokuapp.com/images/wallup-301745.jpg');
@@ -121,7 +120,6 @@ left:10%;
     background-attachment: fixed;
     background-size: cover;
 	overflow: scroll;
-
 }
 .content{
 height:1000px;
@@ -130,7 +128,7 @@ height:1000px;
 
 
 
-<!=======  Login Area =====>
+
 #login_area{
 	position:absolute;
 	top:100px;
@@ -155,9 +153,8 @@ height:1000px;
 
 
 
-<!=======  Sign Up Area =====>
 #signUp_area{
-		position:absolute;
+	position:absolute;
 	top:100px;
 	left:300px;
 	height:400px;
