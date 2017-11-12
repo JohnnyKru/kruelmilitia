@@ -19,52 +19,33 @@ header{
 	color:white;
 	z-index:5;
 }
+<!=========  INDEX AREA ================>
 
-.jk_pix{
-	position:relative;
-	top:10px;
-	left:0px;
-	height:600px;
-	overflow:scroll; 
-	scrollbar-base-color: red;
-}
-
-
-.kru_bioTxt{
-	position:relative;
-	top:10px;	
-}
-
-#title_logo{
+.welcomTx{
 	position:absolute;
-	top:0px;
-	left:5%;
-	color:white;
-	z-index:5;
+	top:100px;
+	width:600px;
+	height:900px;
+	padding:15px;
+	background-color: white;
+	border: solid 2.1px #3498DB;
+}
+
+
+.kruelIntro{
+	position:relative;
 	
 }
-
-
-.content_area{
-	
-	background-image: url('https://whispering-inlet-81728.herokuapp.com/images/Muay-Thai.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;	
-	background-size: cover;
-}
-.content_area1{
-	background-image: url('https://whispering-inlet-81728.herokuapp.com/images/wallup-301745.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-	overflow: scroll;
-
-}
-.content{
-height:1000px;
+.contactForm{
+	top:60px;
+	position:relative;
 }
 
 
+
+
+
+<!======== PT AREA ========== > 
 #Video_area{
 	position:relative;
 	top:100px;
@@ -96,6 +77,61 @@ height:1000px;
 	background:gray;	
 }
 
+.price_PT{
+position:relative;
+left:10%;
+}
+
+<!============== Johnny's Bio Area ================>
+
+.jk_pix{
+	position:relative;
+	top:10px;
+	left:0px;
+	height:600px;
+	overflow:scroll; 
+	scrollbar-base-color: red;
+}
+
+
+.kru_bioTxt{
+	position:relative;
+	top:10px;	
+}
+
+#title_logo{
+	position:absolute;
+	top:0px;
+	left:5%;
+	color:white;
+	z-index:5;
+	
+}
+
+<!========================= Background Wallpapers ====================>
+
+.content_area{
+	
+	background-image: url('https://whispering-inlet-81728.herokuapp.com/images/Muay-Thai.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;	
+	background-size: cover;
+}
+.content_area1{
+	background-image: url('https://whispering-inlet-81728.herokuapp.com/images/wallup-301745.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	overflow: scroll;
+
+}
+.content{
+height:1000px;
+}
+
+
+
+
 <!=======  Login Area =====>
 #login_area{
 	position:absolute;
@@ -118,6 +154,8 @@ height:1000px;
 	height:200px;
 	margin:0px auto;	
 }
+
+
 
 <!=======  Sign Up Area =====>
 #signUp_area{
@@ -144,26 +182,6 @@ height:1000px;
 	text-align:right;
 }
 
-.welcomTx{
-	position:absolute;
-	top:100px;
-	width:600px;
-	height:900px;
-	padding:15px;
-	background-color: white;
-	border: solid 2.1px #3498DB;
-}
-
-
-.kruelIntro{
-	position:relative;
-	
-}
-.contactForm{
-	top:60px;
-	position:relative;
-}
-
 
 .footer{
 	width:100%;
@@ -176,15 +194,11 @@ height:1000px;
 }
 
 
-
 #inputName, #inputEmail, #inputSubject,#inputMessage{
 	border: solid 1px #3498DB;
 }
 
-.price_PT{
-position:relative;
-left:10%;
-}
+
 
 
 

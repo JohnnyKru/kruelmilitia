@@ -31,11 +31,11 @@
 			    <div class="row">			
 					 <div class="jk_pix col-xs-12 col-sm-12 col-md-6 col-lg-4">
 					 <img src="https://whispering-inlet-81728.herokuapp.com/images/JKru.jpg" alt="" class="img-responsive" />
-					  <div class="imag1"><img src="http://localhost/kruelmilitia/images/fightpose.png" width="600" height="450" alt="" class="img-responsive"/>
+					  <div class="imag1"><img src="https://whispering-inlet-81728.herokuapp.com/images/images/fightpose.png" width="600" height="450" alt="" class="img-responsive"/>
 					 </div>
-					 <div class="imag1"><img src="http://localhost/kruelmilitia/images/kmteamspar.jpg" width="600" height="450" alt="" class="img-responsive"/>
+					 <div class="imag1"><img src="https://whispering-inlet-81728.herokuapp.com/images/kmteamspar.jpg" width="600" height="450" alt="" class="img-responsive"/>
 					 </div>
-					 <div class="imag1"><img src="http://localhost/kruelmilitia/images/LC2.jpg" width="600" height="450" alt="" class="img-responsive"/>
+					 <div class="imag1"><img src="https://whispering-inlet-81728.herokuapp.com/images/LC2.jpg" width="600" height="450" alt="" class="img-responsive"/>
 					 </div>
 					</div>
 			 
