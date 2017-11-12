@@ -11,7 +11,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="index.php">Home</a></li>
+        <li><a href="https://secure-wildwood-31684.herokuapp.com">Home</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#"> <span class="caret"> Video  </span></a>
           <ul class="dropdown-menu">
