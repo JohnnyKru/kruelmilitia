@@ -30,19 +30,17 @@
     <div class="content_area1">	
 		<div class= "container-fluid">
 			<div class = "row">
-					<div class ="col-md-12 col-lg-6 ">
-						<div id = "Video_area" >
-							<video style="max-width:100% " width="500" height="auto" src="https://whispering-inlet-81728.herokuapp.com/vid/PTMuayThai_HD_(1).mp4" controls type="video/mp4" >	
+					<div class ="col-xs-12 col-md-6 col-lg-6 ">
+						<div id ="Video_area" >
+							<video style="max-width:100% " src="https://whispering-inlet-81728.herokuapp.com/vid/PTMuayThai_HD_(1).mp4" controls type="video/mp4" >	
 							  <p>Your browser doesn't support HTML5 video. </p> 
 							</video>
 							<br>
 							<br> 
 						</div>
 					</div>
-						
-				<div class="row">
-					<div class="col-md-12 col-lg-6">
-						<div class="welcomTx1">
+					<div class=" col-xs-12 col-md-12 col-lg-6">
+						<div class="price_Tx1">
 							<div class="price_PT">
 								<h4>[ Local Members Only ]</h4>
 								<h4 style="color:red;">Personal Training 
@@ -82,7 +80,7 @@
 							</div>
 						</div>		
 					</div>
-				</div>					
+								
 			</div>
 	    </div>
     </div>		
