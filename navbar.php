@@ -11,7 +11,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="https://secure-wildwood-31684.herokuapp.com">Home</a></li>
+        <li><a href="https://whispering-inlet-81728.herokuapp.com/">Home</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#"> <span class="caret"> Video  </span></a>
           <ul class="dropdown-menu">
@@ -20,8 +20,8 @@
             <li><a href="#">Video 1-3</a></li>
           </ul>
         </li>
-        <li><a href="https://secure-wildwood-31684.herokuapp.com//KruJohnny.php"> Johnny Kru's Bio </a></li>
-        <li><a href="https://secure-wildwood-31684.herokuapp.com/PersonalTraining.php">Personal Training</a></li>
+        <li><a href="https://whispering-inlet-81728.herokuapp.com/KruJohnny.php"> Johnny Kru's Bio </a></li>
+        <li><a href="https://whispering-inlet-81728.herokuapp.com/PersonalTraining.php">Personal Training</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a onClick="signUp();"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
