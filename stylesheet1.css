@@ -3,15 +3,16 @@ h1{
 	color:blue;
 }
 p , li{
-font-size:18px;
-color:white;
+	font-size:18px;
+	color:white;
 }
 em{
-font-size:18px;	
+	font-size:18px;
+	color: #7FFFD4;	
 }
 body {
-margin:0;
-background:black;
+	margin:0;
+	background:black;
 }
 
 header{
@@ -25,25 +26,33 @@ header{
 
 .welcomTx{
 	position:absolute;
-	top:100px;
-	width:600px;
-	height:900px;
+	top:50px;
+	width:100%;
 	padding:15px;
-	background-color:grey;
 	border: solid 2.1px #3498DB;
-}
-
-
-.kruelIntro{
-	position:relative;
+	background-image: url('https://whispering-inlet-81728.herokuapp.com/images/muscle_toning_fitness-852x480.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 	
 }
-.contactForm{
-	top:60px;
+
+{
+
+.kruelIntro, .contactForm{
+	top:200px;
 	position:relative;
 }
-
-
+.vid_area{
+	position:absolute;
+	right:0px;
+	top:0px;
+	width:300px;
+	height:1000px;
+	background:white;
+	border:solid 1px white;
+	
+}
 
 #Video_area{
 	position:absolute;
@@ -75,11 +84,11 @@ header{
 }
 
 .price_PT{
-position:relative;
-left:10%;
+	position:relative;
+	left:10%;
 }
 
-<!============== Johnny's Bio Area ================>
+
 
 .jk_pix{
 	position:relative;
@@ -108,25 +117,23 @@ left:10%;
 
 
 .content_area{
-	background-image: url('https://secure-wildwood-31684.herokuapp.com/images/Muay-Thai.jpg');
+	background-image: url('https://whispering-inlet-81728.herokuapp.com/images/Muay-Thai.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;	
 	background-size: cover;
 	overflow: scroll;
 }
 .content_area1{
-	background-image: url('https://secure-wildwood-31684.herokuapp.com/images/wallup-301745.jpg');
+	background-image: url('https://whispering-inlet-81728.herokuapp.com/images/wallup-301745.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 	overflow: scroll;
 }
 .content{
-height:1000px;
+height:auto;
+width:100%;
 }
-
-
-
 
 
 #login_area{
@@ -151,8 +158,6 @@ height:1000px;
 	margin:0px auto;	
 }
 
-
-
 #signUp_area{
 	position:absolute;
 	top:100px;
@@ -172,10 +177,7 @@ height:1000px;
 	width:300px;
 	height:350px;
 }
-#form{
-	float:right;
-	text-align:right;
-}
+
 
 
 .footer{
