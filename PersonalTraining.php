@@ -33,7 +33,7 @@
 					<div class ="col-xs-12 col-md-6 col-lg-6 ">
 					
 						<div id ="Video_area" >
-							<video style="max-width:100%; position:relative ; top:100px;" src="https://whispering-inlet-81728.herokuapp.com/images/vid/PTMuayThai_HD_(1).mp4" controls type="video/mp4">	
+							<video style="max-width:100%; position:relative ; top:100px;" src="https://whispering-inlet-81728.herokuapp.com/vid/PTMuayThai_HD_(1).mp4" controls type="video/mp4">	
 							  <p>Your browser doesn't support HTML5 video. </p> 
 							</video>
 							<br>
@@ -48,14 +48,14 @@
 								<br>(Raleigh , Durham , Apex NC) </h4>
 								<h5>For None Members of United ThaiBoxing =  $45 (1) 30 Min Session </h5>
 										 
-				<!================== First Promo ==============================>
+				
 								<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 								<input type="hidden" name="cmd" value="_s-xclick">
 								<input type="hidden" name="hosted_button_id" value="94KPFAHHQ9BSL">
 								<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 								<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 								</form>
-				<!======== Second Promo =================>
+				
 								<br>
 								<br>
 								<h3>Kids Buddy Sessions</h3>
