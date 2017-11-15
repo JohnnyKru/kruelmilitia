@@ -30,12 +30,14 @@
 			<div class="container-fluid">
 			    <div class="row">			
 					 <div class="jk_pix col-xs-12 col-sm-12 col-md-6 col-lg-4">
-					 <img src="https://secure-wildwood-31684.herokuapp.com/JKru.jpg" alt="" class="img-responsive" />
-					  <div class="imag1"><img src="https://secure-wildwood-31684.herokuapp.com/images/fightpose.png" width="600" height="450" alt="" class="img-responsive"/>
+					 
+					<div class="imag1"> <img src="https://whispering-inlet-81728.herokuapp.com/images/JKru.jpg" width="600" height="450" alt="" class="img-responsive" />
+					  </div>
+					  <div class="imag1"><img src="https://whispering-inlet-81728.herokuapp.com/images/fightpose.png" width="600" height="450" alt="" class="img-responsive"/>
 					 </div>
-					 <div class="imag1"><img src="https://secure-wildwood-31684.herokuapp.com/images/kmteamspar.jpg" width="600" height="450" alt="" class="img-responsive"/>
+					 <div class="imag1"><img src="https://whispering-inlet-81728.herokuapp.com/images/kmteamspar.jpg" width="600" height="450" alt="" class="img-responsive"/>
 					 </div>
-					 <div class="imag1"><img src="https://secure-wildwood-31684.herokuapp.com/images/LC2.jpg" width="600" height="450" alt="" class="img-responsive"/>
+					 <div class="imag1"><img src="https://whispering-inlet-81728.herokuapp.com/images/LC2.jpg" width="600" height="450" alt="" class="img-responsive"/>
 					 </div>
 					</div>
 			 
